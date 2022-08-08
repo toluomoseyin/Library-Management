@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {}
+    "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {
+    "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
         "projectName": "LibraryManagement.Application",
-        "projectPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\ToluOmoseyin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\obj\\",
+        "projectPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Oyinlola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ToluOmoseyin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Oyinlola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/samantharoth23/_packaging/kuda.packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
-                "projectPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj"
+              "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj"
               },
-              "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj"
+              "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj"
               }
             }
           }
@@ -80,25 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
+    "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
         "projectName": "LibraryManagement.Core",
-        "projectPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
-        "packagesPath": "C:\\Users\\ToluOmoseyin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\obj\\",
+        "projectPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\Oyinlola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ToluOmoseyin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Oyinlola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,8 +97,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/samantharoth23/_packaging/kuda.packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -149,25 +139,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj": {
+    "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
         "projectName": "LibraryManagement.Infrastructure",
-        "projectPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ToluOmoseyin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Oyinlola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ToluOmoseyin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Oyinlola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -175,15 +161,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/samantharoth23/_packaging/kuda.packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
-                "projectPath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj"
+              "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\Oyinlola\\Source\\Repos\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj"
               }
             }
           }
@@ -198,6 +183,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.7, )"
@@ -232,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

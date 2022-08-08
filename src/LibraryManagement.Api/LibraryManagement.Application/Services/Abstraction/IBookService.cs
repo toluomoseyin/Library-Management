@@ -11,5 +11,6 @@ namespace LibraryManagement.Application.Services.Abstraction
         Task<BaseResponse<BookViewModel>> GetById(string bookId);
         Task<BaseResponse<BookViewModel>> UpdateBook(BookViewModel req);
         Task<BaseResponse> DeleteBook(string bookId);
+        Task<BaseResponse> AddReviewAsync(CreateReviewRequestModel model);
     }
 }

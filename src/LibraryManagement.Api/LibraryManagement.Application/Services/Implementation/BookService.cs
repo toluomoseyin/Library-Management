@@ -1,4 +1,5 @@
-﻿using LibraryManagement.Application.Constants;
+﻿using AutoMapper;
+using LibraryManagement.Application.Constants;
 using LibraryManagement.Application.DTOs.Requests;
 using LibraryManagement.Application.DTOs.Response;
 using LibraryManagement.Application.Services.Abstraction;
@@ -18,13 +19,18 @@ namespace LibraryManagement.Application.Services.Implementation
         private readonly IConfiguration _configuration;
         private readonly ICacheRepository _cacheRepository;
         private readonly IBookRepository _bookRepository;
+        private readonly IMapper _mapper;
+        private readonly ICustomerRepository _customerRepository;
+        private readonly IReviewRepository _reviewRepository;
         public BookService(IConfiguration configuration,
             ICacheRepository cacheRepository, 
-            IBookRepository bookRepository)
+            IBookRepository bookRepository, IMapper mapper,
+            IReviewRepository reviewRepository)
         {
             _configuration = configuration;
             _cacheRepository = cacheRepository;
             _bookRepository = bookRepository;
+            _reviewRepository = reviewRepository;
         }
 
 
@@ -121,6 +127,25 @@ namespace LibraryManagement.Application.Services.Implementation
             _cacheRepository.RemoveData($"{CacheConstant.CUSTOMER_ID_CACHE_KEY}{bookId}");
 
             return BaseResponse.Success("Operation successful");
+        }
+
+        public async Task<BaseResponse> AddReviewAsync(CreateReviewRequestModel requestModel)
+        {
+            Review review;
+            Customer customer = await _customerRepository.GetByIdAsync(requestModel.CustomerId);
+            Book book = _cacheRepository.GetData<Book>($"{CacheConstant.BOOK_ID_CACHE_KEY}{requestModel.BookId}");
+            if(book is null)
+            {
+                 
+                book=await _bookRepository.GetByIdAsync(requestModel.BookId);
+                if (book is null) throw new Exception("Book not found");
+            }
+
+            review = _mapper.Map<Review>(requestModel);
+            review.Customer = customer;
+            review.Book = book;
+            await _reviewRepository.AddAsync(review);
+            return BaseResponse.Success("Book Review Successful");
         }
     }
 }

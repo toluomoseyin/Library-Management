@@ -16,7 +16,7 @@ namespace LibraryManagement.Core.Entities
         public string ISBN { get; set; }
         public decimal Price { get; set; }
         public DateTime PublishedDate { get; set; }
-        public string PhotoUrl { get; set; }
+        //public string PhotoUrl { get; set; }
         public int AvailableCopies { get; set; }
         public int Pages { get; set; }
         public string Description { get; set; }

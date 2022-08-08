@@ -15,3 +15,11 @@ C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\refint\LibraryManagement.Application.dll
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.pdb
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\ref\LibraryManagement.Application.dll
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.csproj.AssemblyReference.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.AssemblyInfoInputs.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.AssemblyInfo.cs
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.dll
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\ref\LibraryManagement.Application.dll
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.pdb

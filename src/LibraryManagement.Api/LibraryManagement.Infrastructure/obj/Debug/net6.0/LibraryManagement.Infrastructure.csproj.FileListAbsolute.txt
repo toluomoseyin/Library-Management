@@ -15,3 +15,11 @@ C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\ref\LibraryManagement.Infrastructure.dll
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\bin\Debug\net6.0\LibraryManagement.Infrastructure.runtimeconfig.json
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\LibraryManagement.Infrastructure.genruntimeconfig.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\LibraryManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\LibraryManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\LibraryManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\LibraryManagement.Infrastructure.AssemblyInfo.cs
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\LibraryManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\LibraryManagement.Infrastructure.dll
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\ref\LibraryManagement.Infrastructure.dll
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Infrastructure\obj\Debug\net6.0\LibraryManagement.Infrastructure.pdb

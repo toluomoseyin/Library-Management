@@ -98,3 +98,13 @@ C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\bin\Debug\net6.0\Humanizer.dll
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.csproj.AssemblyReference.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.AssemblyInfoInputs.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.AssemblyInfo.cs
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.csproj.CoreCompileInputs.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.dll
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\ref\LibraryManagement.Api.dll
+C:\Users\Oyinlola\Source\Repos\Library-Management\src\LibraryManagement.Api\LibraryManagement.Api\obj\Debug\net6.0\LibraryManagement.Api.pdb

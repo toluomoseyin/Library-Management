@@ -1,4 +1,5 @@
-﻿using LibraryManagement.Application.DTOs.Requests;
+﻿using AutoMapper;
+using LibraryManagement.Application.DTOs.Requests;
 using LibraryManagement.Application.DTOs.Response;
 using LibraryManagement.Application.Services.Abstraction;
 using Microsoft.AspNetCore.Http;
@@ -25,7 +26,7 @@ namespace LibraryManagement.Api.Controllers
         }
 
 
-        [HttpGet("[action]")]
+        [HttpGet("[action]",Name="GetBookById")]
         public async Task<ActionResult<BaseResponse<BookViewModel>>> GetById(string bookId)
         {
             BaseResponse<BookViewModel> result = await _bookService.GetById(bookId);
@@ -46,7 +47,20 @@ namespace LibraryManagement.Api.Controllers
             return Ok(result);
         }
 
-
+        public async Task<IActionResult> AddReview(CreateReviewRequestModel requestModel)
+        {
+            try
+            {
+                BaseResponse result = await _bookService.AddReviewAsync(requestModel);
+                BaseResponse<BookViewModel> book= await _bookService.GetById(requestModel.BookId);
+                return CreatedAtRoute("GetBookById",new { Id=requestModel.BookId}, book);
+            }
+            catch(Exception exception)
+            {
+                return BadRequest(exception.Message);
+            }
+            
+        }
 
 
     }
