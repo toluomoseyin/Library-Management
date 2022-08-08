@@ -1,0 +1,12 @@
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\bin\Debug\net6.0\LibraryManagement.Core.deps.json
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\bin\Debug\net6.0\LibraryManagement.Core.dll
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\bin\Debug\net6.0\LibraryManagement.Core.pdb
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\LibraryManagement.Core.csproj.AssemblyReference.cache
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\LibraryManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\LibraryManagement.Core.AssemblyInfoInputs.cache
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\LibraryManagement.Core.AssemblyInfo.cs
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\LibraryManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\LibraryManagement.Core.dll
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\refint\LibraryManagement.Core.dll
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\LibraryManagement.Core.pdb
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Core\obj\Debug\net6.0\ref\LibraryManagement.Core.dll

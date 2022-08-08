@@ -1,0 +1,17 @@
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.csproj.AssemblyReference.cache
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.AssemblyInfoInputs.cache
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.AssemblyInfo.cs
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\bin\Debug\net6.0\LibraryManagement.Application.deps.json
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\bin\Debug\net6.0\LibraryManagement.Application.dll
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\bin\Debug\net6.0\LibraryManagement.Application.pdb
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\bin\Debug\net6.0\LibraryManagement.Core.dll
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\bin\Debug\net6.0\LibraryManagement.Infrastructure.dll
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\bin\Debug\net6.0\LibraryManagement.Core.pdb
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\bin\Debug\net6.0\LibraryManagement.Infrastructure.pdb
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.csproj.CopyComplete
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.dll
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\refint\LibraryManagement.Application.dll
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\LibraryManagement.Application.pdb
+C:\Users\ToluOmoseyin\Desktop\Tutorial\Library-Management\src\LibraryManagement.Api\LibraryManagement.Application\obj\Debug\net6.0\ref\LibraryManagement.Application.dll
