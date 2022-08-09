@@ -27,7 +27,7 @@ namespace LibraryManagement.Infrastructure.Repositories.Base
             _libraryMgtDbCxt.Set<T>().Remove(entity);
             await _libraryMgtDbCxt.SaveChangesAsync();
         }
-        public async Task<IReadOnlyList<T>> GetAllAsync()
+        public async Task<List<T>> GetAllAsync()
         {
             return await _libraryMgtDbCxt.Set<T>().ToListAsync();
         }

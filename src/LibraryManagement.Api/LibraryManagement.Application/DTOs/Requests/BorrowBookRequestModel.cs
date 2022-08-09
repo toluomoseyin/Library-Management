@@ -14,4 +14,12 @@ namespace LibraryManagement.Application.DTOs.Requests
         [Required]
         public string BookId { get; set; }
     }
+
+    public class ReturnBookRequestModel
+    {
+        [Required]
+        public string CustomerId { get; set; }
+        [Required]
+        public string BookId { get; set; }
+    }
 }

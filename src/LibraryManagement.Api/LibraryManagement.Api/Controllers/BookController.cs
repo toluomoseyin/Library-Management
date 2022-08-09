@@ -26,7 +26,7 @@ namespace LibraryManagement.Api.Controllers
         }
 
 
-        [HttpGet("[action]",Name="GetBookById")]
+        [HttpGet("[action]")]
         public async Task<ActionResult<BaseResponse<BookViewModel>>> GetById(string bookId)
         {
             BaseResponse<BookViewModel> result = await _bookService.GetById(bookId);
@@ -34,7 +34,7 @@ namespace LibraryManagement.Api.Controllers
         }
 
         [HttpGet("[action]")]
-        public async Task<ActionResult<BaseResponse<BookViewModel>>> UpdateBook(BookViewModel req)
+        public async Task<ActionResult<BaseResponse<BookViewModel>>> UpdateBook(BookUpdate req)
         {
             BaseResponse<BookViewModel> result = await _bookService.UpdateBook(req);
             return Ok(result);
@@ -45,22 +45,7 @@ namespace LibraryManagement.Api.Controllers
         {
             BaseResponse result = await _bookService.DeleteBook(bookId);
             return Ok(result);
-        }
-
-        public async Task<IActionResult> AddReview(CreateReviewRequestModel requestModel)
-        {
-            try
-            {
-                BaseResponse result = await _bookService.AddReviewAsync(requestModel);
-                BaseResponse<BookViewModel> book= await _bookService.GetById(requestModel.BookId);
-                return CreatedAtRoute("GetBookById",new { Id=requestModel.BookId}, book);
-            }
-            catch(Exception exception)
-            {
-                return BadRequest(exception.Message);
-            }
-            
-        }
+        }   
 
 
     }

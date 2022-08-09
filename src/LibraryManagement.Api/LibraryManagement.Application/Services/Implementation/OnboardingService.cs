@@ -50,7 +50,7 @@ namespace LibraryManagement.Application.Services.Implementation
                 return BaseResponse.Failure("Invalid password, Minimum password Length is 8 " +
                                            "and must contain at least 1 number and a special character ");
 
-            var hashedPassword = _passwordHasher.HashPassword(req.Password);
+          
             var customer = new Customer
             {
                 UserName = req.Email,
@@ -58,7 +58,6 @@ namespace LibraryManagement.Application.Services.Implementation
                 State = req.State,
                 City = req.City,
                 CustomerStatus = CustomerStatus.Active,
-                PasswordHash = hashedPassword,
                 FirstName = req.FirstName,
                 LastName = req.LastName,
                 LibraryId = Guid.NewGuid(),
@@ -68,10 +67,10 @@ namespace LibraryManagement.Application.Services.Implementation
                PhoneNumber=req.PhoneNumber,
             };
             
-            Customer createdCustomer = await _customerRepository.AddAsync(customer);
+            var customerIdentityResult = await _userManager.CreateAsync(customer,req.Password);
 
-            if(createdCustomer is not null)
-                identityResult = await _userManager.AddToRoleAsync(createdCustomer, _configuration["DefaultRole"]);
+            if(customerIdentityResult is not null && customerIdentityResult.Succeeded)
+                identityResult = await _userManager.AddToRoleAsync(customer, _configuration["DefaultRole"]);
 
             if(identityResult is not null && identityResult.Succeeded)
                 return BaseResponse.Success("Customer was successfully created");

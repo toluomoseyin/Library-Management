@@ -18,12 +18,27 @@ namespace LibraryManagement.Infrastructure.Repositories
 
         }
 
-        public async Task<BorrowedBook> GetCustomerDueToReturnBook(string customerId, int numofDays)
+        public async Task<BorrowedBook> GetBorrowedBookByCustomerId(string customerId)
+        {
+           return await _libraryMgtDbCxt.BorrowedBooks.FirstOrDefaultAsync(x => x.CustomerId == customerId && !x.HasReturned);
+        }
+
+        public async Task<BorrowedBook> GetBorrowedBookByBook(string bookId)
+        {
+            return await _libraryMgtDbCxt.BorrowedBooks.FirstOrDefaultAsync(x => x.BookId == bookId);
+        }
+
+        public async Task<BorrowedBook> GetCustomerDueToReturnBook(string customerId)
         {
             return await _libraryMgtDbCxt.BorrowedBooks
                                                        .Where(x => x.CustomerId == customerId
-                                                       && !x.HasReturned && (DateTime.Now - x.ReturnDueDate).TotalDays >= numofDays)
+                                                       && !x.HasReturned)
                                                        .FirstOrDefaultAsync();
+        }
+
+        public async Task<List<BorrowedBook>> GetListByCustomerId(string customerId)
+        {
+           return await _libraryMgtDbCxt.BorrowedBooks.Where(x=>x.CustomerId == customerId).ToListAsync();
         }
     }
 }

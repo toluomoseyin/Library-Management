@@ -14,6 +14,9 @@ namespace LibraryManagement.Api.Extensions
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IOnbaordingService, OnboardingService>();
             services.AddScoped<IPasswordHasher, PasswordHasher>();
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IRatingService, RatingService>();
+            services.AddScoped<IReviewService, ReviewService>();
         }
     }
 }

@@ -41,9 +41,6 @@ namespace LibraryManagement.Application.Services.Implementation
         public async Task<BaseResponse<TokenResponseModel>> Login(LoginRequestModel loginRequestModel)
         {
             TokenResponseModel loginResponse = new TokenResponseModel();
-            //var customer = _cacheRepository.GetData<Customer>
-            //                               ($"{CacheConstant.CUSTOMER_EMAIL_CACHE_KEY}{loginRequestModel.Email}");
-            //if (customer is null)
               var  customer = await _userManager.FindByEmailAsync(loginRequestModel.Email);
             var result = await _signInManager.PasswordSignInAsync(loginRequestModel.Email,
                           loginRequestModel.Password,false, lockoutOnFailure: true);
@@ -55,12 +52,6 @@ namespace LibraryManagement.Application.Services.Implementation
                                                                        customer, DateTimeOffset.Now.AddHours(12));
             else
                 return BaseResponse<TokenResponseModel>.Failure(loginResponse, "Username or password is invalid.");
-
-            //var hashedPassword = _passwordHasher.HashPassword(loginRequestModel.Password);
-
-            //if (hashedPassword != customer.PasswordHash)
-            
-               
 
             if (customer.CustomerStatus == CustomerStatus.Disabled)
                 return BaseResponse<TokenResponseModel>.Failure(loginResponse, "This customer is not active");
@@ -159,6 +150,7 @@ namespace LibraryManagement.Application.Services.Implementation
             else
                 _cacheRepository.SetData<Customer>($"{CacheConstant.CUSTOMER_ID_CACHE_KEY}{customerId}",
                                                                       customer, DateTimeOffset.Now.AddHours(12));
+            customerViewModel.Id= customerId;
             customerViewModel.State=customer.State;
             customerViewModel.Email=customer.Email;
             customerViewModel.City=customer.City;

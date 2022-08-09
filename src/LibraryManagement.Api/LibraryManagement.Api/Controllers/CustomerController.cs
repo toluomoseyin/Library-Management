@@ -25,7 +25,7 @@ namespace LibraryManagement.Api.Controllers
             BaseResponse < TokenResponseModel > result = await _customerService.Login(loginRequestModel);
             return Ok(result);
         }
-
+        [Authorize(Roles = "admin")]
         [HttpPost("[action]")]
         public async Task<ActionResult<BaseResponse>> AddToRole([FromBody] RoleRequestModel roleRequestModel)
         {
@@ -33,7 +33,7 @@ namespace LibraryManagement.Api.Controllers
             return Ok(result);
         }
 
-        [Authorize(Roles = "member")]
+       
         [HttpGet("[action]/{customerId}")]
 
         public async Task<ActionResult<BaseResponse<CustomerViewModel>>> GetById(string customerId)
@@ -42,7 +42,7 @@ namespace LibraryManagement.Api.Controllers
             return Ok(result);
         }
 
-
+        [Authorize(Roles = "admin")]
         [HttpPut("[action]")]
         public async Task<ActionResult<BaseResponse<CustomerViewModel>>> Update(UpdateCustomerRequestModel req)
         {
@@ -50,6 +50,7 @@ namespace LibraryManagement.Api.Controllers
             return Ok(result);
         }
 
+        [Authorize(Roles = "admin")]
         [HttpDelete("[action]")]
         public async Task<ActionResult<BaseResponse>> Delete(string customerId)
         {

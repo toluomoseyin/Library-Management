@@ -9,10 +9,8 @@ namespace LibraryManagement.Application.DTOs.Requests
     public class CreateReviewRequestModel
     {
         public string BookId { get; set; }
-        //public Book Book { get; set; }
         public string Subject { get; set; }
         public string Body { get; set; }
         public string CustomerId { get; set; }
-        //public Customer Customer { get; set; }
     }
 }
