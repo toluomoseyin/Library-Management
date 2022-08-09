@@ -58,10 +58,6 @@ namespace LibraryManagement.Infrastructure.Migrations
                     b.Property<int>("Pages")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("PhotoUrl")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<decimal>("Price")
                         .HasColumnType("TEXT");
 

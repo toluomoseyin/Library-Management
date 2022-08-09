@@ -7,13 +7,13 @@ namespace LibraryManagement.Api.Extensions
     {
         public static IServiceCollection AddLibrarySwagger(this IServiceCollection serviceCollection, Action<SwaggerOptions> configureOptions)
         {
-            SwaggerOptions kudaSwaggerOptions = new(configureOptions);
+            SwaggerOptions SwaggerOptions = new(configureOptions);
 
-            if (string.IsNullOrWhiteSpace(kudaSwaggerOptions.Title))
+            if (string.IsNullOrWhiteSpace(SwaggerOptions.Title))
             {
                 throw new ArgumentNullException("'SwaggerOptions:Title' not configured");
             }
-            if (string.IsNullOrWhiteSpace(kudaSwaggerOptions.Version))
+            if (string.IsNullOrWhiteSpace(SwaggerOptions.Version))
             {
                 throw new ArgumentNullException("'SwaggerOptions:Version' not configured");
             }
@@ -21,7 +21,7 @@ namespace LibraryManagement.Api.Extensions
             serviceCollection.AddEndpointsApiExplorer();
             serviceCollection.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc(kudaSwaggerOptions.Version, new OpenApiInfo { Title = kudaSwaggerOptions.Title, Version = kudaSwaggerOptions.Version });
+                options.SwaggerDoc(SwaggerOptions.Version, new OpenApiInfo { Title = SwaggerOptions.Title, Version = SwaggerOptions.Version });
                 options.AddSecurityDefinition("bearer", new OpenApiSecurityScheme
                 {
                     Type = SecuritySchemeType.Http,

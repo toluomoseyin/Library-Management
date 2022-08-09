@@ -1,4 +1,5 @@
-﻿using LibraryManagement.Application.DTOs.Requests;
+﻿using AutoMapper;
+using LibraryManagement.Application.DTOs.Requests;
 using LibraryManagement.Application.DTOs.Response;
 using LibraryManagement.Application.Services.Abstraction;
 using Microsoft.AspNetCore.Http;
@@ -33,7 +34,7 @@ namespace LibraryManagement.Api.Controllers
         }
 
         [HttpGet("[action]")]
-        public async Task<ActionResult<BaseResponse<BookViewModel>>> UpdateBook(BookViewModel req)
+        public async Task<ActionResult<BaseResponse<BookViewModel>>> UpdateBook(BookUpdate req)
         {
             BaseResponse<BookViewModel> result = await _bookService.UpdateBook(req);
             return Ok(result);
@@ -44,9 +45,7 @@ namespace LibraryManagement.Api.Controllers
         {
             BaseResponse result = await _bookService.DeleteBook(bookId);
             return Ok(result);
-        }
-
-
+        }   
 
 
     }

@@ -11,6 +11,9 @@ namespace LibraryManagement.Api.Extensions
             services.AddScoped<IBorrowedBookRepository, BorrowedBookRepository>();
             services.AddScoped<ICacheRepository, CacheRepository>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IRatingRepository, RatingRepository>();
+            services.AddScoped<IReviewRepository, ReviewRepository>();
         }
     }
 }

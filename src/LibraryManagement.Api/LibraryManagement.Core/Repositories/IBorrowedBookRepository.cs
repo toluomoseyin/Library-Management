@@ -10,6 +10,11 @@ namespace LibraryManagement.Core.Repositories
 {
     public interface IBorrowedBookRepository:IRepository<BorrowedBook>
     {
-        Task<BorrowedBook> GetCustomerDueToReturnBook(string customerId,int numofDays);
+        Task<BorrowedBook> GetCustomerDueToReturnBook(string customerId);
+
+        Task<BorrowedBook> GetBorrowedBookByCustomerId(string customerId);
+        Task<BorrowedBook> GetBorrowedBookByBook(string bookId);
+
+        Task<List<BorrowedBook>> GetListByCustomerId(string customerId);
     }
 }

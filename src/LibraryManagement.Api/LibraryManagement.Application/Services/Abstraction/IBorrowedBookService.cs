@@ -11,5 +11,8 @@ namespace LibraryManagement.Application.Services.Abstraction
     public interface IBorrowedBookService
     {
         Task<BaseResponse<BorrowBookResponse>> Borrow(BorrowBookRequestModel req);
+        Task<BaseResponse<ReturnBookResponse>> Return(ReturnBookRequestModel req);
+        Task<BaseResponse<List<BorrowBookResponse>>> BorrowedBooks(string customerId);
+        Task<BaseResponse<List<BorrowBookResponse>>> GetAll();
     }
 }

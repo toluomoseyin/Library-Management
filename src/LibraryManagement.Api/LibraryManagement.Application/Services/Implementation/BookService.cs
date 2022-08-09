@@ -1,4 +1,5 @@
-﻿using LibraryManagement.Application.Constants;
+﻿using AutoMapper;
+using LibraryManagement.Application.Constants;
 using LibraryManagement.Application.DTOs.Requests;
 using LibraryManagement.Application.DTOs.Response;
 using LibraryManagement.Application.Services.Abstraction;
@@ -18,18 +19,25 @@ namespace LibraryManagement.Application.Services.Implementation
         private readonly IConfiguration _configuration;
         private readonly ICacheRepository _cacheRepository;
         private readonly IBookRepository _bookRepository;
+        private readonly ICustomerRepository _customerRepository;
+        private readonly ICategoryRepository _categoryRepository;
         public BookService(IConfiguration configuration,
-            ICacheRepository cacheRepository, 
-            IBookRepository bookRepository)
+            ICacheRepository cacheRepository,
+            IBookRepository bookRepository,
+            ICategoryRepository categoryRepository)
         {
             _configuration = configuration;
             _cacheRepository = cacheRepository;
             _bookRepository = bookRepository;
+            _categoryRepository = categoryRepository;
         }
 
 
         public async Task<BaseResponse> CreateBook(CreateBookRequestModel reqModel)
         {
+            var category = await _categoryRepository.GetByIdAsync(reqModel.CategoryId);
+            if (category == null)
+                return BaseResponse.Failure("Category does not exist");
             Book book = new Book
             {
                 Id=Guid.NewGuid().ToString(),
@@ -41,6 +49,13 @@ namespace LibraryManagement.Application.Services.Implementation
                 Price = reqModel.Price,
                 Publisher = reqModel.Publisher,
                 Title = reqModel.Title,
+                Language = reqModel.Language,
+                AvailableCopies = reqModel.AvailableCopies,
+                CategoryId = reqModel.CategoryId,
+                Description = reqModel.Description,
+                Pages = reqModel.Pages,
+                PublishedDate = reqModel.PublishedDate,
+               
             };
            var createdBook = await _bookRepository.AddAsync(book);
 
@@ -80,7 +95,7 @@ namespace LibraryManagement.Application.Services.Implementation
 
         }
 
-        public async Task<BaseResponse<BookViewModel>> UpdateBook(BookViewModel req)
+        public async Task<BaseResponse<BookViewModel>> UpdateBook(BookUpdate req)
         {
             BookViewModel bookViewModel = new BookViewModel();
             var book = _cacheRepository.GetData<Book>
@@ -91,6 +106,9 @@ namespace LibraryManagement.Application.Services.Implementation
             if (book is null)
                 return BaseResponse<BookViewModel>.Failure(bookViewModel, "Book was not found");
 
+            var category = await _categoryRepository.GetByIdAsync(req.CategoryId);
+            if (category == null)
+                return BaseResponse<BookViewModel>.Failure(bookViewModel,"Category does not exist");
             book.Id = req.Id;
             book.Title = req.Title;
             book.Author = req.Author;
@@ -108,7 +126,6 @@ namespace LibraryManagement.Application.Services.Implementation
 
         }
 
-
         public async Task<BaseResponse> DeleteBook(string bookId)
         {
             var book = _cacheRepository.GetData<Book>
@@ -118,9 +135,11 @@ namespace LibraryManagement.Application.Services.Implementation
 
             await _bookRepository.DeleteAsync(book);
 
-            _cacheRepository.RemoveData($"{CacheConstant.CUSTOMER_ID_CACHE_KEY}{bookId}");
+            _cacheRepository.RemoveData($"{CacheConstant.BOOK_ID_CACHE_KEY}{bookId}");
 
             return BaseResponse.Success("Operation successful");
         }
+
+     
     }
 }

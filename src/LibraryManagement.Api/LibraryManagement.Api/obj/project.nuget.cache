@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DcMiWYfOcAv6OHHSUClFakmSU/lmQxkS2C4a/Uw8yc3i3zBdNSWVqoU9nwdSLMVQ2NvVlPPI2yHXYr7W/R20VA==",
+  "dgSpecHash": "9nIROhXMvc+yHB8R7kSZyOAz9Syu6bMaKNX+D+d8ck5S9kWlzro1bUQPTUo/G6M8WZSOeGA/16P4F9epkWP+gg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ToluOmoseyin\\Desktop\\Tutorial\\Library-Management\\src\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ToluOmoseyin\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\ToluOmoseyin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\ToluOmoseyin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ToluOmoseyin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\ToluOmoseyin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
